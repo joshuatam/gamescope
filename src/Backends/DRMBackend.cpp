@@ -3301,6 +3301,7 @@ namespace gamescope
 			bNeedsFullComposite |= bWasFirstFrame;
 			bNeedsFullComposite |= pFrameInfo->useFSRLayer0;
 			bNeedsFullComposite |= pFrameInfo->useNISLayer0;
+			bNeedsFullComposite |= pFrameInfo->useBICUBICLayer0;
 			bNeedsFullComposite |= pFrameInfo->blurLayer0;
 			bNeedsFullComposite |= bNeedsCompositeFromFilter;
 			bNeedsFullComposite |= !k_bUseCursorPlane && bDrewCursor;
